@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding-top: 5%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    height: 85%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding-bottom: 3%;
+}
+
+.string {
+    padding: 0px 25px 0px 0px;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 40px;
+    margin-right: 3%;
+    width: 75%;
+    height: 100%;
+}
+
+.answer {
+    display: inline-block;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 40px;
+    width: 25%;
+    height: 100%;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+
+.left {
+    display: inline-block;
+    width: 73%;
+    margin-right: 3%;
+}
+
+.right {
+    display: inline-block;
+    width: 25%;
+}
+
+.table {
+    border-spacing: 7px 11px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.table tr {
+    width: 25%;
+}
+
+.number {
+    background-color: grey;
+}
+
+.table td {
+    transition: 0.5s;
+    font-size: max(1em, min(4em, calc(100vw * 4 / 175)));
+    text-align: center;
+    width: 14.5%;
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 5px;
+}
+
+.table td:hover {
+    transition: 0.1s;
+    background-color: green;
+}
